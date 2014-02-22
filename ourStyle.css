@@ -1,3 +1,32 @@
+html, body {
+  margin:0;
+  padding:0;
+}
+
+.main_container {
+  background-color:red;
+}
+
 .nav_bar_height {
-  height:100px;
+  height:60px;
+  background-color:#3d495f;
+}
+
+.logo_container {
+  display:table;
+  height:100%;
+}
+
+.logo {
+  color: white;
+  font-family: "Cabin", sans-serif;
+  font-size: 1.0625em;
+  letter-spacing:5px;
+  display:table-cell; vertical-align:middle;
+  padding-left:20px;
+  font-weight:100;
+}
+
+.main_container {
+  background-color:#f5cfb3;
 }
