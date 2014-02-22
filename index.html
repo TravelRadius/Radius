@@ -9,26 +9,55 @@
     <link rel="stylesheet" href="ourStyle.css">
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+    <script src="ourScript.js"></script>
   </head>
   <body>
-  <div class="main_container">
+    <div class="main_container">
 
-    <!-- Nav bar -->
-    <div class="row nav_bar_height">
-      <div class="logo_container">
-        <div class="logo">LET'S GO SOMEWHERE</div> 
+      <!-- Nav bar -->
+      <div class="row nav_bar_height">
+        <div class="logo_container">
+          <div class="logo">LET'S GO SOMEWHERE</div> 
+        </div>
       </div>
-    </div>
 
-    <!-- Budget Row -->
-    <div class="row budget_row">
-      <div class="input-group">
-        <span class="input-group-addon">$</span>
-        <input type="text" class="form-control" placeholder="Budget">
-        <span class="input-group-addon">.00</span>
+      <!-- Budget Row -->
+      <div class="row budget_row">
+        <div class="col-md-4">
+          <span class="title">What's your budget?</span>
+          <div class="input-group">
+            <span class="input-group-addon">$</span>
+            <input type="text" class="form-control" placeholder="Budget">
+            <span class="input-group-addon">.00</span>
+          </div>
+        </div>
       </div>
-    </div>
 
-  </div>
+      <!-- Transportation Row -->
+      <div class="row budget_row">
+        <div class="col-md-4">
+          <span class="title">Let's talk transportation</span><br>
+          <span class="title">Mode: </span>
+          <div class="btn-group" data-toggle="buttons">
+            <label class="btn btn-primary active">
+              <input type="radio" name="options" id="option1"> Car
+            </label>
+            <label class="btn btn-primary">
+              <input type="radio" name="options" id="option2"> Bus
+            </label>
+          </div><br>
+
+          <div class="transport_info">
+            <span class="title">MPG of your car</span>
+            <div class="input-group">
+              <input type="text" class="form-control" placeholder="Miles Per Gallon">
+              <span class="input-group-addon">MGP</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
   </body>
 </html>

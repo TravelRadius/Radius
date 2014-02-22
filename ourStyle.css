@@ -3,6 +3,10 @@ html, body {
   padding:0;
 }
 
+.row {
+  margin-right:0;
+}
+
 .main_container {
   background-color:red;
 }
@@ -26,7 +30,7 @@ html, body {
   font-size: 1.0625em;
   letter-spacing:6px;
   display:table-cell; vertical-align:middle;
-  padding-left:20px;
+  padding-left:40px;
   font-weight:200;
 }
 
@@ -36,14 +40,19 @@ html, body {
 
 
 .budget_row {
-  height:200px;
   color: #3d495f;
-}
-
-.text_input_container {
   padding-top:50px;
+  padding-left:30px;
 }
 
-.text_input_input {
-  display: inline-block;
+.title {
+  font-family: "Cabin", sans-serif;
+  font-size: 1.5em;
+  letter-spacing:2px;
+  display:table-cell; vertical-align:middle;
+  font-weight:400;
+  padding-left:3px;
+  display:inline-block;
+  margin-top:10px;
+  margin-bottom:10px;
 }
