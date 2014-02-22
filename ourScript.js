@@ -4,6 +4,9 @@ $(document).ready(function() {
   }
 
   $(".outer_row").click( function() {
-    //$("div.outer_row.focus").css("background-color", "transparent");
+    if ($(this).hasClass("focus"))
+      return;
+    $("div.outer_row.focus").css("background-color", "").removeClass("focus");
+    $(this).addClass("focus");
   });
 });
