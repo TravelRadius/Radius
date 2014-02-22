@@ -38,21 +38,33 @@ html, body {
   background-color:#f5cfb3;
 }
 
+.focus {
+  background-color:rgb(197, 186, 60);
+}
 
-.budget_row {
+.outer_row {
   color: #3d495f;
-  padding-top:50px;
-  padding-left:30px;
+  display-table;
+}
+
+.inner_row {
+  display:table-cell;
+  vertical-align:middle;
+  margin-top:20px;
+  margin-bottom:20px;
+  padding-top:20px;
+  padding-bottom:20px;
+  padding-left:20px;
 }
 
 .title {
   font-family: "Cabin", sans-serif;
   font-size: 1.5em;
   letter-spacing:2px;
-  display:table-cell; vertical-align:middle;
   font-weight:400;
   padding-left:3px;
   display:inline-block;
   margin-top:10px;
   margin-bottom:10px;
+  color: rgba(0,0,0,.7);
 }
